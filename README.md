@@ -12,7 +12,6 @@ This repository contains the source code and documentation for a real-time bus t
 3. [Getting Started](#getting-started)
 4. [Project Structure](#project-structure)
 5. [Deployment](#deployment)
-6. [Chatbot](#chatbot)
 
 ## Overview
 
@@ -35,7 +34,7 @@ The project also features a chatbot integrated with NLP and ML capabilities to a
 The project structure is organized as follows:
 
 - `FrontEnd/`: Contains the React front-end application.
-- `BackEnd/`: Houses the Express backend and chatbot logic.
+- `BackEnd/`: Houses the Express backend.
 - `BackEnd/models/`: Stores MongoDB schema and models.
 - `BackEnd/router/`: Defines API routes.
 - `BackEnd/Database/`: Stores MongoDB connections.
@@ -44,10 +43,6 @@ The project structure is organized as follows:
 ## Deployment
 
 This project is deployed on Azure, providing a scalable and reliable platform for real-time bus tracking. 
-
-## Chatbot
-
-The chatbot integrated into this project uses NLP and ML to provide intelligent responses to user queries. It can handle questions about bus routes, estimated arrival times, and other relevant information. 
 
 ---
 
